@@ -18,6 +18,6 @@ A Retrieval-Augmented Generation (RAG) system that classifies incoming user quer
 │   └── save_info.py      # save information about rules in database
 ├── app.py                   # Gradio app
 ├── requirements.txt
-├── .env.example
+├── env
 └── README.md
 ```
