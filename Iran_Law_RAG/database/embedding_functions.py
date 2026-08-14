@@ -37,11 +37,6 @@ def save_embed(collection, embed_model):
         metadatas=[{"chapter": a["chapter"], "article_label": a["asl"]} for a in articles]
     )
 
-def remove_prep_database(rm_name):
-     client = create_db()
-     #client.delete_collection(rm_name)
-     collection = create_collection(client, name=rm_name)
-     return collection
 
 def get_similar_answer(collection, message):
      embed_query = model.encode(f"query:{message}")
