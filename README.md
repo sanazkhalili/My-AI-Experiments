@@ -1,7 +1,7 @@
+Starting August 2026, I'm committing to shipping one AI project every month and sharing it here — a space for consistent practice, hands-on learning, and documenting my growth as I go.
 
-PhD candidate in AI/ML | Vision-Language Models · Contrastive Learning · Cross-Modal Retrieval
+📫 khalili.sanaz94@gmail.com
 
-📫 [Email](khalili.sanaz94@gmail.com)
 ## 🚀 Featured Projects
 
 | Project | Description | Tech Stack |
