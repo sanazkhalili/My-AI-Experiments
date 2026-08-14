@@ -6,7 +6,7 @@ A Retrieval-Augmented Generation (RAG) system that classifies incoming user quer
 
 ## 📁 Project structure
 
-\```
+```
 .
 ├── src/
 │   ├── config.py           # settings and prompts
@@ -20,4 +20,4 @@ A Retrieval-Augmented Generation (RAG) system that classifies incoming user quer
 ├── requirements.txt
 ├── .env.example
 └── README.md
-\```
+```
