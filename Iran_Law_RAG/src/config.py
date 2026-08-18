@@ -69,13 +69,9 @@ SUMMARY_PROMPT_ASL = """
 OUT_LIER_RESPONSE = "سوال های مرتبط با قوانین اساسی بپرسید."
 
 
-SECOND_KEY = "YOUR API KEY"
-FIRST_KEY = "YOUR API KEY"
-THIRD_KEY = "YOUR API KEY"
+KEY = "YOUR API KEY"
 
-
-
-API_KEY = "Bearer " + FIRST_KEY
+API_KEY = "Bearer " + KEY
 
 LLM_MODEL = "cohere/north-mini-code:free"
 
