@@ -15,7 +15,7 @@ A Retrieval-Augmented Generation (RAG) system that classifies incoming user quer
 ├── database/
 │   ├── crud.py                            # create, read in database
 │   ├── embedding_functions.py             # save embeddings and retrieval
-│   └── save_info.py                       # save information about rules in database
+│   └── save_embeddings.py                       # save information about rules in database
 ├── app.py                                 # Gradio app
 ├── env
 └── README.md
