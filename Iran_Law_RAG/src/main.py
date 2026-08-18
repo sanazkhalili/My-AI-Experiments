@@ -5,7 +5,7 @@ import gradio as gr
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.append(str(ROOT))
 
-from generating_llm import chat_with_model
+from chat_engine import chat_with_model
 import os
 
 

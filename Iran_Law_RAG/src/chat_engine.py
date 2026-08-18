@@ -26,7 +26,7 @@ def call_llm(user_message, system_message):
 
 
 def chat_with_model(user_message):
-    from database.create_embeddings import get_similar_answer, get_similar_info
+    from database.embedding_functions import get_similar_answer, get_similar_info
 
     class_question = get_classify(user_message)
     print(class_question)
