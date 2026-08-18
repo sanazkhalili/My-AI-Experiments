@@ -27,7 +27,7 @@ python ./database/save_embeddings.py
 python ./src/main.py
 
 ````
-## System Components
+## APP Components
 
 | Component | Model / Tool |
 |-----------|--------------|
