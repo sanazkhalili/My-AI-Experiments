@@ -9,14 +9,14 @@ A Retrieval-Augmented Generation (RAG) system that classifies incoming user quer
 ```
 .
 ├── src/
-│   ├── config.py           # settings and prompts
+│   ├── config.py            # settings and prompts
 │   ├── utils.py             # connect to collections
 │   └── chat_engine.py       # routing and using LLM
 ├── database/
-│   ├── crud.py           # create, read in database
+│   ├── crud.py                            # create, read in database
 │   ├── embedding_functions.py             # save embeddings and retrieval
-│   └── save_info.py      # save information about rules in database
-├── app.py                   # Gradio app
+│   └── save_info.py                       # save information about rules in database
+├── app.py                                 # Gradio app
 ├── env
 └── README.md
 ```
@@ -27,3 +27,11 @@ python ./database/save_embeddings.py
 python ./src/main.py
 
 ````
+## System Components
+
+| Component | Model / Tool |
+|-----------|--------------|
+| UI | Gradio |
+| Embedding Model | BAAI/bge-m3 |
+| LLM | cohere/north-mini-code:free (OpenRouter) |
+| Vector Database | ChromaDB |
