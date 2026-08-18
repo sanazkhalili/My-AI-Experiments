@@ -4,6 +4,11 @@ A Retrieval-Augmented Generation (RAG) system that classifies incoming user quer
 ![Gradio](https://img.shields.io/badge/UI-Gradio-orange)
 ![ChromaDB](https://img.shields.io/badge/VectorDB-ChromaDB-green)
 
+
+<p align="center">
+  <img src="E:\Our_company\GitHub_ai_expriment\Iran_Law_RAG\assert\demo.gif" width="700">
+</p>
+
 ## 📁 Project structure
 
 ```
@@ -35,3 +40,10 @@ python ./src/main.py
 | Embedding Model | BAAI/bge-m3 |
 | LLM | cohere/north-mini-code:free (OpenRouter) |
 | Vector Database | ChromaDB |
+
+
+## Limitations of the First Version
+
+- **Low response speed:** One of the main reasons was the redundant use of the LLM twice in the pipeline.
+- **Code quality improvements:** The code structure requires further cleaning, refactoring, and better organization.
+- **Lack of evaluation module:** The first version does not include an evaluation pipeline for measuring retrieval and answer accuracy.
